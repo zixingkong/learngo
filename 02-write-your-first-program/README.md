@@ -12,7 +12,7 @@ Enjoy!
 
 ## COMMAND LINE COMMANDS:
 
-* Enter into a directory: `cd directoryPath`
+* Enter into a direcdirectorytory: `cd directoryPath`
 
 * **WINDOWS:**
 
