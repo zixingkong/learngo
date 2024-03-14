@@ -11,22 +11,34 @@ package main
 import "fmt"
 
 // ---------------------------------------------------------
-// EXERCISE: Multiple Short Declare #2
+// EXERCISE: Multi Short Func
 //
-//  1. Declare two variables using multiple short declaration
+// 	1. Declare two variables using multiple short declaration syntax
 //
-//  2. `a` variable's value should be 42
-//  3. `c` variable's value should be "good"
+//  2. Initialize the variables using `multi` function below
+//
+//  3. Discard the 1st variable's value in the declaration
+//
+//  4. Print only the 2nd variable
+//
+// NOTE
+//  You should use `multi` function
+//  while initializing the variables
 //
 // EXPECTED OUTPUT
-//  42 good
+//  4
 // ---------------------------------------------------------
 
 func main() {
 	// ADD YOUR DECLARATIONS HERE
 	//
-	a,c:=42,"good"
+	_,b:=multi()
 	// THEN UNCOMMENT THE CODE BELOW
 
-	fmt.Println(a, c)
+	fmt.Println(b)
+}
+
+// multi is a function that returns multiple int values
+func multi() (int, int) {
+	return 5, 4
 }

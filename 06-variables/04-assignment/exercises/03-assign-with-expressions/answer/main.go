@@ -1,4 +1,3 @@
-
 // Copyright © 2018 Inanc Gumus
 // Learn Go Programming Course
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9,37 +8,33 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
-// EXERCISE: Declare with bits
+// EXERCISE: Assign With Expressions
 //
-//  1. Declare a few variables using the following types
-//    int
-//    int8
-//    int16
-//    int32
-//    int64
-//    float32
-//    float64
-//    complex64
-//    complex128
-//    bool
-//    string
-//    rune
-//    byte
+//  1. Multiply 3.14 with 2 and assign it to `n` variable
 //
-// 2. Observe their output
+//  2. Print the `n` variable
 //
-// 3. After you've done, check out the solution
-//    and read the comments there
+// HINT
+//  Example: 3 * 2 = 6
+//  * is the product operator (it multiplies numbers)
 //
 // EXPECTED OUTPUT
-//  0 0 0 0 0 0 0 (0+0i) (0+0i) false 0 0
-//  ""
+//  6.28
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
+	// DON'T TOUCH THIS
 
-	// CONTINUE FROM HERE....
+	// Declares a new float64 variable
+	// 0. means 0.0
+	n := 0.
+
+	// ADD YOUR CODE BELOW
+	n = 3.14 * 2
+	// ?
+
+	fmt.Println(n)
 }

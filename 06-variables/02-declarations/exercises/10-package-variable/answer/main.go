@@ -8,25 +8,15 @@
 
 package main
 
-import "fmt"
-
 // ---------------------------------------------------------
-// EXERCISE: Multiple Short Declare #2
+// EXERCISE: Package Variable
 //
-//  1. Declare two variables using multiple short declaration
+//  1. Declare a variable in the package-scope
 //
-//  2. `a` variable's value should be 42
-//  3. `c` variable's value should be "good"
-//
-// EXPECTED OUTPUT
-//  42 good
+//  2. Observe whether something happens when you don't
+//     use it
 // ---------------------------------------------------------
-
+var speed int
 func main() {
-	// ADD YOUR DECLARATIONS HERE
-	//
-	a,c:=42,"good"
-	// THEN UNCOMMENT THE CODE BELOW
 
-	fmt.Println(a, c)
 }

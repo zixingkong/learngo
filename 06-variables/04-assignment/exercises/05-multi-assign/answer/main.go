@@ -1,4 +1,3 @@
-
 // Copyright © 2018 Inanc Gumus
 // Learn Go Programming Course
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9,37 +8,30 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
-// EXERCISE: Declare with bits
+// EXERCISE: Multi Assign
 //
-//  1. Declare a few variables using the following types
-//    int
-//    int8
-//    int16
-//    int32
-//    int64
-//    float32
-//    float64
-//    complex64
-//    complex128
-//    bool
-//    string
-//    rune
-//    byte
+//  1. Assign "go" to `lang` variable
+//     and assign 2 to `version` variable
+//     using a multiple assignment statement
 //
-// 2. Observe their output
-//
-// 3. After you've done, check out the solution
-//    and read the comments there
+//  2. Print the variables
 //
 // EXPECTED OUTPUT
-//  0 0 0 0 0 0 0 (0+0i) (0+0i) false 0 0
-//  ""
+//  go version 2
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
+	// DO NOT TOUCH THIS
+	var (
+		lang    string
+		version int
+	)
 
-	// CONTINUE FROM HERE....
+	// ADD YOUR CODE BELOW
+	lang,version = "go",2
+	// DO NOT TOUCH THIS
+	fmt.Println(lang, "version", version)
 }

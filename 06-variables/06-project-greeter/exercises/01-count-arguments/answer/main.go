@@ -1,4 +1,3 @@
-
 // Copyright © 2018 Inanc Gumus
 // Learn Go Programming Course
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9,37 +8,27 @@
 
 package main
 
+import (
+	"fmt"
+	"os"
+)
+
 // ---------------------------------------------------------
-// EXERCISE: Declare with bits
+// EXERCISE: Count the Arguments
 //
-//  1. Declare a few variables using the following types
-//    int
-//    int8
-//    int16
-//    int32
-//    int64
-//    float32
-//    float64
-//    complex64
-//    complex128
-//    bool
-//    string
-//    rune
-//    byte
+//  Print the count of the command-line arguments
 //
-// 2. Observe their output
-//
-// 3. After you've done, check out the solution
-//    and read the comments there
+// INPUT
+//  bilbo balbo bungo
 //
 // EXPECTED OUTPUT
-//  0 0 0 0 0 0 0 (0+0i) (0+0i) false 0 0
-//  ""
+//  There are 3 names.
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
+	// UNCOMMENT & FIX THIS CODE
+	count := len(os.Args)-1
 
-	// CONTINUE FROM HERE....
+	// UNCOMMENT IT & THEN DO NOT TOUCH THIS CODE
+	fmt.Printf("There are %d names.\n", count)
 }

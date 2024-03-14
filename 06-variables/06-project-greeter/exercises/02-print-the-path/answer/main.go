@@ -8,18 +8,22 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
-// ---------------------------------------------------------
-// EXERCISE: Convert and Fix
+// STEPS:
 //
-//  Fix the code by using the conversion expression.
+// Compile it by typing:
+//   go build -o myprogram
 //
-// EXPECTED OUTPUT
-//  15.5
-// ---------------------------------------------------------
+// Then run it by typing:
+//   ./myprogram
+//
+// If you're on Windows, then type:
+//   myprogram
 
 func main() {
-	a, b := float64(10), 5.5
-	fmt.Println(a + b)
+	fmt.Println(os.Args[0])
 }

@@ -1,4 +1,3 @@
-
 // Copyright © 2018 Inanc Gumus
 // Learn Go Programming Course
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9,37 +8,38 @@
 
 package main
 
+import (
+	"fmt"
+	"os"
+)
+
 // ---------------------------------------------------------
-// EXERCISE: Declare with bits
+// EXERCISE: Print Your Name
 //
-//  1. Declare a few variables using the following types
-//    int
-//    int8
-//    int16
-//    int32
-//    int64
-//    float32
-//    float64
-//    complex64
-//    complex128
-//    bool
-//    string
-//    rune
-//    byte
+//  Get it from the first command-line argument
 //
-// 2. Observe their output
-//
-// 3. After you've done, check out the solution
-//    and read the comments there
+// INPUT
+//  Call the program using your name
 //
 // EXPECTED OUTPUT
-//  0 0 0 0 0 0 0 (0+0i) (0+0i) false 0 0
-//  ""
+//  It should print your name
+//
+// EXAMPLE
+//  go run main.go inanc
+//
+//    inanc
+//
+// BONUS: Make the output like this:
+//
+//  go run main.go inanc
+//    Hi inanc
+//    How are you?
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
-
-	// CONTINUE FROM HERE....
+	// get your name from the command-line
+	// and print it
+	name:= os.Args[1]
+	fmt.Println("Hi", name)
+	fmt.Println("How are you?")
 }

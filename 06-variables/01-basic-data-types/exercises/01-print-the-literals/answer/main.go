@@ -11,22 +11,29 @@ package main
 import "fmt"
 
 // ---------------------------------------------------------
-// EXERCISE: Multiple Short Declare #2
+// EXERCISE: Print the literals
 //
-//  1. Declare two variables using multiple short declaration
+//  1. Print a few integer literals
 //
-//  2. `a` variable's value should be 42
-//  3. `c` variable's value should be "good"
+//  2. Print a few float literals
 //
-// EXPECTED OUTPUT
-//  42 good
+//  3. Print true and false bool constants
+//
+//  4. Print your name using a string literal
+//
+//  5. Print a non-english sentence using a string literal
+//
 // ---------------------------------------------------------
 
 func main() {
-	// ADD YOUR DECLARATIONS HERE
-	//
-	a,c:=42,"good"
-	// THEN UNCOMMENT THE CODE BELOW
+	// Use fmt.Println()
+	fmt.Println(-200,0,200)
 
-	fmt.Println(a, c)
+	fmt.Println(-1.1,2.)
+
+	fmt.Println(false,true)
+
+	fmt.Println("harvey")
+
+	fmt.Println("学习Go语言")
 }

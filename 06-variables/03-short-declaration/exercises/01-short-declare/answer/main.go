@@ -1,4 +1,3 @@
-
 // Copyright © 2018 Inanc Gumus
 // Learn Go Programming Course
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9,37 +8,28 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
-// EXERCISE: Declare with bits
+// EXERCISE: Short Declare
 //
-//  1. Declare a few variables using the following types
-//    int
-//    int8
-//    int16
-//    int32
-//    int64
-//    float32
-//    float64
-//    complex64
-//    complex128
-//    bool
-//    string
-//    rune
-//    byte
-//
-// 2. Observe their output
-//
-// 3. After you've done, check out the solution
-//    and read the comments there
+//  Declare and then print four variables using
+//  the short declaration statement.
 //
 // EXPECTED OUTPUT
-//  0 0 0 0 0 0 0 (0+0i) (0+0i) false 0 0
-//  ""
+//  i: 314 f: 3.14 s: Hello b: true
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
+	// ADD YOUR DECLARATIONS HERE
+	//
+	i,f,s,b := 314,3.14,"Hello",true
+	// THEN UNCOMMENT THE CODE BELOW
 
-	// CONTINUE FROM HERE....
+	fmt.Println(
+		"i:", i,
+		"f:", f,
+		"s:", s,
+		"b:", b,
+	)
 }

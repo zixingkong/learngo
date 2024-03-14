@@ -1,4 +1,3 @@
-
 // Copyright © 2018 Inanc Gumus
 // Learn Go Programming Course
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9,37 +8,33 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
-// EXERCISE: Declare with bits
+// EXERCISE: Redeclare
 //
-//  1. Declare a few variables using the following types
-//    int
-//    int8
-//    int16
-//    int32
-//    int64
-//    float32
-//    float64
-//    complex64
-//    complex128
-//    bool
-//    string
-//    rune
-//    byte
+// 	1. Short declare two int variables: age and yourAge
+//     (use multiple short declaration syntax)
 //
-// 2. Observe their output
+//  2. Short declare a new float variable: ratio
+//     And, change the 'age' variable to 42
 //
-// 3. After you've done, check out the solution
-//    and read the comments there
+//     (! You should use redeclaration)
+//
+//  4. Print all the variables
 //
 // EXPECTED OUTPUT
-//  0 0 0 0 0 0 0 (0+0i) (0+0i) false 0 0
-//  ""
+//  42, 20, 3.14
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
+	// ADD YOUR DECLARATIONS HERE
+	//
+	age, yourAge := 20, 30
 
-	// CONTINUE FROM HERE....
+	age,ratio:=42,3.14
+
+	// THEN UNCOMMENT THE CODE BELOW
+
+	fmt.Println(age, yourAge, ratio)
 }

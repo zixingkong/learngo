@@ -8,25 +8,20 @@
 
 package main
 
-import "fmt"
-
 // ---------------------------------------------------------
-// EXERCISE: Multiple Short Declare #2
+// EXERCISE: Unused
 //
-//  1. Declare two variables using multiple short declaration
+//  1. Declare a variable
 //
-//  2. `a` variable's value should be 42
-//  3. `c` variable's value should be "good"
+//  2. Variable's name should be: isLiquid
 //
-// EXPECTED OUTPUT
-//  42 good
+//  3. Discard it using a blank-identifier
+//
+// NOTE
+//  Do not print the variable
 // ---------------------------------------------------------
 
 func main() {
-	// ADD YOUR DECLARATIONS HERE
-	//
-	a,c:=42,"good"
-	// THEN UNCOMMENT THE CODE BELOW
-
-	fmt.Println(a, c)
+	var isLiquid bool
+	_  =isLiquid
 }

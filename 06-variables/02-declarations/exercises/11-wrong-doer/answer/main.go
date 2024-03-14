@@ -8,25 +8,22 @@
 
 package main
 
-import "fmt"
-
 // ---------------------------------------------------------
-// EXERCISE: Multiple Short Declare #2
+// EXERCISE: Wrong doer
 //
-//  1. Declare two variables using multiple short declaration
+//  1. Print a variable
 //
-//  2. `a` variable's value should be 42
-//  3. `c` variable's value should be "good"
+//  2. Then declare it
+//  (This means: Try to print it before its declaration)
 //
-// EXPECTED OUTPUT
-//  42 good
+//  3. Observe the error
 // ---------------------------------------------------------
 
 func main() {
-	// ADD YOUR DECLARATIONS HERE
-	//
-	a,c:=42,"good"
-	// THEN UNCOMMENT THE CODE BELOW
+	// First print it:
+	// fmt.Println(b)
+	// var b int
 
-	fmt.Println(a, c)
+	// Then declare it:
+	// var ? ?
 }

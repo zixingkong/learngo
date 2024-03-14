@@ -13,7 +13,7 @@ import "fmt"
 func main() {
 	// `safe`'s value is `false`
 	var safe bool
-
+	// var speed int
 	// `safe`'s value is now `true`
 
 	// `speed` is declared and initialized to `50`

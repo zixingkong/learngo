@@ -8,25 +8,36 @@
 
 package main
 
-import "fmt"
-
 // ---------------------------------------------------------
-// EXERCISE: Multiple Short Declare #2
+// EXERCISE: Undeclarables
 //
-//  1. Declare two variables using multiple short declaration
+//  1. Declare the variables below:
+//      3speed
+//      !speed
+//      spe?ed
+//      var
+//      func
+//      package
 //
-//  2. `a` variable's value should be 42
-//  3. `c` variable's value should be "good"
+//  2. Observe the error messages
 //
-// EXPECTED OUTPUT
-//  42 good
+// NOTE
+//  The types of the variables are not important.
 // ---------------------------------------------------------
 
 func main() {
-	// ADD YOUR DECLARATIONS HERE
-	//
-	a,c:=42,"good"
-	// THEN UNCOMMENT THE CODE BELOW
-
-	fmt.Println(a, c)
+	// var ? int
+	// var ? int
+	// var ? int
+	// var ? int
+	// var ? int
+	// var ? int
+	// var (
+		// 3speed
+		// !speed
+		// spe?edspe
+		// var 
+		// func
+		// package
+	// ) int 
 }

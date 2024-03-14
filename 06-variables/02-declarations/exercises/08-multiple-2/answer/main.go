@@ -11,22 +11,28 @@ package main
 import "fmt"
 
 // ---------------------------------------------------------
-// EXERCISE: Multiple Short Declare #2
+// EXERCISE: Multiple #2
 //
-//  1. Declare two variables using multiple short declaration
+//  1. Declare and initialize two string variables
+//     using multiple variable declaration
 //
-//  2. `a` variable's value should be 42
-//  3. `c` variable's value should be "good"
+//  2. Use the type once while declaring the variables
+//
+//  3. The first variable's name should be firstName
+//  4. The second variable's name should be lastName
+//
+//  5. Print them all
 //
 // EXPECTED OUTPUT
-//  42 good
+//  "" ""
 // ---------------------------------------------------------
 
 func main() {
-	// ADD YOUR DECLARATIONS HERE
+	// ADD YOUR DECLARATION HERE
 	//
-	a,c:=42,"good"
-	// THEN UNCOMMENT THE CODE BELOW
+	var firstName,lastName string = "",""
+	// REPLACE THE QUESTION-MARKS BELOW
+	// WITH THE NAME OF YOUR VARIABLES
 
-	fmt.Println(a, c)
+	fmt.Printf("%q %q\n", firstName, lastName)
 }

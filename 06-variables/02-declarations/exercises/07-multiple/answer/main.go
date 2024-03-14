@@ -1,4 +1,3 @@
-
 // Copyright © 2018 Inanc Gumus
 // Learn Go Programming Course
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9,37 +8,33 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
-// EXERCISE: Declare with bits
+// EXERCISE: Multiple
 //
-//  1. Declare a few variables using the following types
-//    int
-//    int8
-//    int16
-//    int32
-//    int64
-//    float32
-//    float64
-//    complex64
-//    complex128
-//    bool
-//    string
-//    rune
-//    byte
+//  1. Declare two variables using
+//     multiple variable declaration statement
 //
-// 2. Observe their output
+//  2. The first variable's name should be active
+//  3. The second variable's name should be delta
 //
-// 3. After you've done, check out the solution
-//    and read the comments there
+//  4. Print them all
+//
+// HINT
+//  You should declare a bool and an int variable
 //
 // EXPECTED OUTPUT
-//  0 0 0 0 0 0 0 (0+0i) (0+0i) false 0 0
-//  ""
+//  false 0
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
-
-	// CONTINUE FROM HERE....
+	// var (
+	//   ?
+	// )
+	var (
+		active  bool
+		delta int
+		)
+	fmt.Println(active, delta)
 }

@@ -1,4 +1,3 @@
-
 // Copyright © 2018 Inanc Gumus
 // Learn Go Programming Course
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9,37 +8,23 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
-// EXERCISE: Declare with bits
+// EXERCISE: Declare int
 //
-//  1. Declare a few variables using the following types
-//    int
-//    int8
-//    int16
-//    int32
-//    int64
-//    float32
-//    float64
-//    complex64
-//    complex128
-//    bool
-//    string
-//    rune
-//    byte
+//  1. Declare and print a variable with an int type
 //
-// 2. Observe their output
-//
-// 3. After you've done, check out the solution
-//    and read the comments there
+//  2. The declared variable's name should be: height
 //
 // EXPECTED OUTPUT
-//  0 0 0 0 0 0 0 (0+0i) (0+0i) false 0 0
-//  ""
+//  0
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
+	// var ? ?
+	// ?
+	var height int 
+	fmt.Println(height)
 
-	// CONTINUE FROM HERE....
 }

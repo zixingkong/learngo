@@ -1,4 +1,3 @@
-
 // Copyright © 2018 Inanc Gumus
 // Learn Go Programming Course
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9,37 +8,28 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
-// EXERCISE: Declare with bits
+// EXERCISE: Swapper
 //
-//  1. Declare a few variables using the following types
-//    int
-//    int8
-//    int16
-//    int32
-//    int64
-//    float32
-//    float64
-//    complex64
-//    complex128
-//    bool
-//    string
-//    rune
-//    byte
+//  1. Change `color` to "orange"
+//     and `color2` to "green" at the same time
 //
-// 2. Observe their output
+//     (use multiple-assignment)
 //
-// 3. After you've done, check out the solution
-//    and read the comments there
+//  2. Print the variables
 //
 // EXPECTED OUTPUT
-//  0 0 0 0 0 0 0 (0+0i) (0+0i) false 0 0
-//  ""
+//  orange green
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
+	// UNCOMMENT THE CODE BELOW:
 
-	// CONTINUE FROM HERE....
+	color, color2 := "red", "blue"
+	color, color2 = "orange", "green"
+	fmt.Println(color, color2)
+
+	// ?
 }

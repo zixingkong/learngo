@@ -66,4 +66,22 @@ func main() {
 
 	// COMMENT-OUT ALL THE CODE ABOVE, THEN,
 	// ADD YOUR OWN SOLUTIONS BELOW
+
+	//  1. Print 0 to 9 in hexadecimal
+	for i:=1;i<=10;i++{
+		fmt.Printf("%d 的十六进制表示为 %X\n",i,i)
+	}
+	
+	//  2. Print 10 to 15 in hexadecimal
+	for i:=10;i<=15;i++{
+		fmt.Printf("%d 的十六进制表示为 %X\n",i,i)
+	}
+	//  3. Print 17 in hexadecimal
+	fmt.Printf("17 的十六进制表示为 %X\n",17)
+	//  4. Print 25 in hexadecimal
+	fmt.Printf("25 的十六进制表示为 %X\n",25)
+	//  5. Print 50 in hexadecimal
+	fmt.Printf("50 的十六进制表示为 %X\n",50)
+	//  6. Print 100 in hexadecimal
+	fmt.Printf("100 的十六进制表示为 %X\n",100)
 }

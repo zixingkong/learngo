@@ -1,4 +1,3 @@
-
 // Copyright © 2018 Inanc Gumus
 // Learn Go Programming Course
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9,37 +8,23 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
-// EXERCISE: Declare with bits
+// EXERCISE: Short With Expression
 //
-//  1. Declare a few variables using the following types
-//    int
-//    int8
-//    int16
-//    int32
-//    int64
-//    float32
-//    float64
-//    complex64
-//    complex128
-//    bool
-//    string
-//    rune
-//    byte
+// 	1. Short declare a variable named `sum`
 //
-// 2. Observe their output
-//
-// 3. After you've done, check out the solution
-//    and read the comments there
+//  2. Initialize it with an expression by adding 27 and 3.5
 //
 // EXPECTED OUTPUT
-//  0 0 0 0 0 0 0 (0+0i) (0+0i) false 0 0
-//  ""
+//  30.5
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
-
-	// CONTINUE FROM HERE....
+	// ADD YOUR DECLARATION HERE
+	//
+	sum := 27 + 3.5
+	// THEN UNCOMMENT THE CODE BELOW
+	fmt.Println(sum)
 }
