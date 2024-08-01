@@ -10,14 +10,13 @@ package main
 
 import (
 	"fmt"
-	"os"
 )
 
 func main() {
-	if len(os.Args) != 2 {
-		fmt.Println("Gimme a month name.")
-		return
-	}
+	// if len(os.Args) != 2 {
+	// 	fmt.Println("Gimme a month name.")
+	// 	return
+	// }
 
 	// m := os.Args[1]
 
@@ -33,16 +32,30 @@ func main() {
 	// 	fmt.Println("ERROR: not a month.")
 	// }
 
-	switch m := os.Args[1]; m {
-	case "Dec", "Jan", "Feb":
-		fmt.Println("Winter")
-	case "Mar", "Apr", "May":
-		fmt.Println("Spring")
-	case "Jun", "Jul", "Aug":
-		fmt.Println("Summer")
-	case "Sep", "Oct", "Nov":
-		fmt.Println("Fall")
-	default:
-		fmt.Printf("%q is not a month.\n", m)
+	// switch m := os.Args[1]; m {
+	// case "Dec", "Jan", "Feb":
+	// 	fmt.Println("Winter")
+	// case "Mar", "Apr", "May":
+	// 	fmt.Println("Spring")
+	// case "Jun", "Jul", "Aug":
+	// 	fmt.Println("Summer")
+	// case "Sep", "Oct", "Nov":
+	// 	fmt.Println("Fall")
+	// default:
+	// 	fmt.Printf("%q is not a month.\n", m)
+	// }
+	richter := 2.5
+
+	switch r := richter; {
+	case r < 2:
+		fallthrough
+	case r >= 2 && r < 3:
+		fallthrough
+	case r >= 5 && r < 6:
+		fmt.Println("Not important")
+	case r >= 6 && r < 7:
+		fallthrough
+	case r >= 7:
+		fmt.Println("Destructive")
 	}
 }

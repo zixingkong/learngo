@@ -13,5 +13,5 @@ func main() {
 
 	// ERROR: cannot assign to max
 	//        constants are immutable (cannot change)
-	// max = 100
+	max = 100
 }

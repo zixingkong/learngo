@@ -21,8 +21,8 @@ func main() {
 		fmt.Println("France")
 		// break // unnecessary in Go
 
-		// vip := true
-		// fmt.Println("VIP trip?", vip)
+		vip := true
+		fmt.Println("VIP trip?", vip)
 
 	case "Tokyo":
 		fmt.Println("Japan")
